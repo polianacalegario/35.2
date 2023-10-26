@@ -1,0 +1,42 @@
+/* 1. Cria um estilo global para todas as tags e estilos de caixa */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 2. Cria um estilo para o container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* 3. Cria um estilo para o header */
+header {
+    padding: 20px 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* 4. Cria um estilo para o nav */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* 5. Cria um estilo para o main */
+main {
+    padding: 40px 0;
+}
+
+/* 6. Cria um estilo para o footer */
+footer {
+    padding: 20px 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
